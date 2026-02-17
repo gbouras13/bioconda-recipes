@@ -1,5 +1,6 @@
 zip_keys:
-  - [python, python_impl]
+  - [python, numpy, python_impl, is_python_min]
+
 
 python:
   - 3.9.* *_cpython
@@ -15,3 +16,16 @@ python_impl:
   - cpython
   - cpython
 
+numpy:
+  - 1.26
+  - 1.26
+  - 1.26
+  - 1.26
+  - 2.1
+
+is_python_min:
+  - false
+  - false
+  - false
+  - false
+  - false
