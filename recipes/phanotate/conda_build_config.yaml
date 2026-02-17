@@ -1,7 +1,5 @@
 zip_keys:
-  - python
-  - python_impl
-  - numpy
+  - [python, python_impl, numpy]
 
 python:
   - 3.9.* *_cpython
